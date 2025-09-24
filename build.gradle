@@ -32,7 +32,7 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-tasks.named('test') {d
+tasks.named('test')
 	useJUnitPlatform()
 }
 
